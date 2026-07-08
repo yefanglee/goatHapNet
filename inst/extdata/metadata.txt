@@ -1,0 +1,7 @@
+sample	population
+G001	North
+G002	North
+G003	South
+G004	South
+G005	West
+G006	West

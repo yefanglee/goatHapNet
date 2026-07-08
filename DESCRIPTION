@@ -1,0 +1,24 @@
+Package: goatHapNet
+Type: Package
+Title: Automated Haplotype Network Plots from Regional Goat VCF Data
+Version: 0.1.0
+Authors@R: c(
+    person("Yefang", "Li", role = c("aut", "cre"), email = "your.email@example.com")
+  )
+Description: Extracts a gene or candidate interval from a VCF, phases it with
+    Beagle, builds haplotypes, calculates sample-group frequencies, and exports
+    publication-ready haplotype network plots as PDF, SVG, and TIFF.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    ape,
+    grDevices,
+    graphics,
+    pegas,
+    utils
+Suggests:
+    svglite,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

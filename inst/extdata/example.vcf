@@ -1,0 +1,11 @@
+##fileformat=VCFv4.2
+##source=goatHapNetExample
+##contig=<ID=chr5,length=15000000>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	G001	G002	G003	G004	G005	G006
+chr5	12300100	rs1	A	G	.	PASS	.	GT	0|0	0|1	1|1	0|1	1|0	0|0
+chr5	12318000	rs2	C	T	.	PASS	.	GT	0|1	0|1	1|1	0|0	1|0	0|1
+chr5	12336000	rs3	G	A	.	PASS	.	GT	0|0	1|0	1|1	0|1	0|1	0|0
+chr5	12354000	rs4	T	C	.	PASS	.	GT	0|1	1|1	1|0	0|0	0|1	0|1
+chr5	12372000	rs5	A	C	.	PASS	.	GT	0|0	0|1	1|1	1|0	0|0	0|1
+chr5	12390000	rs6	C	G	.	PASS	.	GT	0|1	0|0	1|1	0|1	1|0	0|0

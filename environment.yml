@@ -1,0 +1,14 @@
+name: goat-hapnet
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base>=4.3
+  - r-ape
+  - r-pegas
+  - r-svglite
+  - r-testthat
+  - bcftools
+  - openjdk
+  - beagle
